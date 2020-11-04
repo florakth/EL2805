@@ -124,7 +124,7 @@ for episode in range(5):
     done = False                           # Boolean variable used to indicate
                                            # if an episode terminated
     while not done:
-        env.render()                       # Render the environment, remove this
+    #    env.render()                       # Render the environment, remove this
                                            # line if you run on Google Colab
         # Create state tensor, remember to use single precision (torch.float32)
         state_tensor = torch.tensor([state],
